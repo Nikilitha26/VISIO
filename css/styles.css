@@ -556,7 +556,7 @@ body {
       padding: 0px !important;
     }
     .right-column {
-      padding-left: 0;
+      /* padding-left: 0; */
       height: auto;
       position: relative;
       top: 130px;
@@ -904,7 +904,7 @@ body {
     }
     
     .columnn {
-        flex: 0 0 41%; 
+        flex: 0 0 35%; 
         margin: 4.5%; 
         height: 50px; 
         line-height: 0px !important;
