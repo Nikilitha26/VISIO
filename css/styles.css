@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0 ;
+    padding: 0 !;
     box-sizing: border-box;
 }
 
@@ -302,6 +302,7 @@ body {
     position: relative;
     left: 135px;
     top: 50px;
+    
 }
 
 .left-column {
@@ -547,9 +548,9 @@ body {
       position: relative;
       top: 40px;
       right: 0px;
-      left: 28px;
+      left: 30px;
       text-align: left;
-      width: 830px;
+      width: 920px;
       line-height: 45px;
       padding-right: 0!important;
       padding: 0px !important;
@@ -572,39 +573,41 @@ body {
       left: 0;
     }
     .icon1{
-        font-size: 7rem !important;
+        font-size: 7.5rem !important;
         position: relative;
         right: 230px !important;
     }
     .icon2 {
-        font-size: 6rem !important;
+        font-size: 8rem !important;
       left: -210px !important;
       top: 13px;
       bottom: 0;
     }
     .icon3{
-        font-size: 7rem !important; 
+        font-size: 8rem !important; 
         position: relative;
         left: -150px !important;
         top: 15px !important;
     }
     .icon4{
-        font-size: 5rem !important;
+        font-size: 7rem !important;
         position: relative;
         left: -100px !important;
     }
     .icon5{
-        font-size: 6rem !important;
+        font-size: 8rem !important;
         position: relative;
         left: -50px;
     }
     .icon6{
-        font-size: 4rem !important;
-    }
-    .icon7{
         font-size: 6rem !important;
         position: relative;
-        left: 50px;
+        left: -20px;
+    }
+    .icon7{
+        font-size: 8rem !important;
+        position: relative;
+        left: 0px;
     }
 
 
@@ -614,20 +617,21 @@ body {
         min-width: 200px;
         height: 200px;
         margin: 10px;
+
     }
     #column3{
         position: relative;
-        left: 378px !important;
+        left: 400px !important;
         top: 60px !important;
     }
     #column2{
         position: relative;
-        left: 330px !important;
+        left: 350px !important;
         top: 60px !important;
     }
     #column1{
         position: relative;
-        left: -490px !important;
+        left: -610px !important;
         top: 280px !important;
     }
 
@@ -637,15 +641,16 @@ body {
         flex-wrap: wrap; 
         justify-content: space-between;
         margin: 20px 0; 
-        width: 880px; 
+        width: 910px; 
         position: relative;
         top: 120px;
         bottom: 50px !important;
         right: 280px !important;
-        left: 90px;
+        left: 110px;
         align-items: start;
         margin-bottom: 60px !important;
         font-size: 18px !important;
+        padding-bottom: 20px !important;
       }
       
       .columnn {
